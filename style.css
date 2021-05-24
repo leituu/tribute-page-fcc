@@ -21,28 +21,6 @@ body {
     padding: 0 10% 0 10%;
 }
 
-/* @media(max-width: 1080px)
-{
-    #img-div>img {
-        display: block;
-        max-width: 80%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media(min-width: 1080px)
-{
-    #img-div>#image {
-        display: block;
-        width: 700px;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-} */
-
 img {
     max-width: 60%;
     height: auto;
