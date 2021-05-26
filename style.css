@@ -21,7 +21,7 @@ body {
 
 
 #img-div {
-    background-color: rgba(241, 195, 195, 0.719);
+    /* background-color: rgba(241, 195, 195, 0.719); */
     margin-top: 0;
     margin-right: auto;
     margin-left: auto;
@@ -31,12 +31,12 @@ body {
 }
 
 img {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 5px;
+    /* padding-top: 5px; */
     border-radius: 15px;
 }
 
@@ -52,19 +52,22 @@ img {
     text-align: left;
     padding: 2% 20% 2% 20%;
     background-color: rgba(241, 195, 195, 0.719);
+    background-image: url(img/pngfind.com-skateboard-side-view-png-4936955.png);
+    background-size: 50%;
+    background-blend-mode: darken;
 }
 
 #tribute-info-container {
     box-shadow: 2px 0px 10px 3px rgb(153, 149, 149), -2px 0px 10px 3px rgb(153, 149, 149);
-    padding: 5% 10% 5% 10%;
-    background-color: cornsilk;
-    border-radius: 2px;
+    padding: 1% 10% 5% 10%;
+    background-color: rgba(243, 240, 240, 0.678);
+    border-radius: 4px;
     /* position: relative;
     top: 10px; */
 }
 
 #tribute-info h2 {
-    margin-top: 0px
+    margin-top: 10px
 }
 
 #tribute-info p{
