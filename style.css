@@ -1,6 +1,7 @@
 body {
     background-image: a;
     background-size: cover;
+    margin: 0;
 }
 
 @media (max-width: 460px) {
@@ -11,16 +12,22 @@ body {
 
 #title {
     text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(245, 57, 57);
 }
 
 
 #img-div {
     background-color: rgba(241, 195, 195, 0.719);
+    margin-top: 0;
     margin-right: auto;
     margin-left: auto;
     padding: 0 10% 0 10%;
+    margin-bottom: 0px;
+    z-index: 2;
 }
 
 img {
@@ -43,7 +50,21 @@ img {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    padding: 0 20% 0 20%;
+    padding: 2% 20% 2% 20%;
+    background-color: rgba(241, 195, 195, 0.719);
+}
+
+#tribute-info-container {
+    box-shadow: 2px 0px 10px 3px rgb(153, 149, 149), -2px 0px 10px 3px rgb(153, 149, 149);
+    padding: 5% 10% 5% 10%;
+    background-color: cornsilk;
+    border-radius: 2px;
+    /* position: relative;
+    top: 10px; */
+}
+
+#tribute-info h2 {
+    margin-top: 0px
 }
 
 #tribute-info p{
