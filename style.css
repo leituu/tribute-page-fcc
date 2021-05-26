@@ -67,13 +67,16 @@ img {
 }
 
 #tribute-info h2 {
-    margin-top: 10px
+    margin-top: 10px;
 }
 
 #tribute-info p{
     text-align: left;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #footer {
     clear: both;
+    text-align: center;
+    background-color: slategrey;
 }
